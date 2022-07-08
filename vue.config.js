@@ -12,7 +12,7 @@ module.exports = {
       // template 中的 title 标签需要是 <title><%= htmlWebpackPlugin.options.title %></title>
       title: '主页面',
     },
-    // abab, 访问该副页面路径为 : http://127.0.0.1:8081/abab
+    // abab, 访问该副页面路径为 : http://127.0.0.1:8081/abab. 如果使用了路由 hasHistory, 则路径为 http://127.0.0.1:8081/abab#/about
     abab: {
       entry: './sub/main.js',
       template: './public/sub.html',
